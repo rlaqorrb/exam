@@ -64,7 +64,7 @@
 
 .notepad{
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 20%;
   transform: translate(-50%, -20%);
   border: 2px solid black;
@@ -108,4 +108,47 @@
 .content .search a{
   text-decoration: none;
   color: black;
+}
+
+.content .examrange{
+  position: absolute;
+  left: 80%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  transition: all .4s;
+  border: dodgerblue solid 1px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.content .copyright{
+  font-size: 13px;
+  color: gray;
+}
+
+.content .examrange:hover{
+  top: 60%;
+
+}
+
+.content .examrange img{
+  width: 200px;
+}
+.content .examrange img:hover{
+  width: 500px;
+  transition: all .4s;
+}
+
+.content .examrange h3{
+  display: block;
+  text-align: center;
+
+}
+
+.content #cauntion{
+  color: red;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
